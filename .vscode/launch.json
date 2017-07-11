@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "PowerShell debugHarness (Temporary Console)",
+            "script": "${workspaceRoot}/debugHarness.ps1",
+            "args": [],
+            "cwd":"${workspaceRoot}",
+            "createTemporaryIntegratedConsole": true
+        },
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "PowerShell debugHarness",
+            "script": "${workspaceRoot}/debugHarness.ps1",
+            "args": [],
+            "cwd":"${workspaceRoot}"
+        }
+    ]
+}
+
